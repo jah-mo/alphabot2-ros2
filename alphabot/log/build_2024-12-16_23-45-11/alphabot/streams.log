@@ -1,0 +1,22 @@
+[5.067s] Invoking command in '/home/user/ros2_ws/src/alphabot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/ros2_ws/src/alphabot/build/alphabot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/src/alphabot/install/alphabot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/alphabot build --build-base /home/user/ros2_ws/src/alphabot/build/alphabot/build install --record /home/user/ros2_ws/src/alphabot/build/alphabot/install.log --single-version-externally-managed install_data
+[6.791s] running egg_info
+[6.945s] writing build/alphabot/alphabot.egg-info/PKG-INFO
+[6.946s] writing dependency_links to build/alphabot/alphabot.egg-info/dependency_links.txt
+[6.950s] writing requirements to build/alphabot/alphabot.egg-info/requires.txt
+[6.951s] writing top-level names to build/alphabot/alphabot.egg-info/top_level.txt
+[7.221s] reading manifest file 'build/alphabot/alphabot.egg-info/SOURCES.txt'
+[7.225s] writing manifest file 'build/alphabot/alphabot.egg-info/SOURCES.txt'
+[7.226s] running build
+[7.227s] running build_py
+[7.227s] copying alphabot/alphabot.py -> /home/user/ros2_ws/src/alphabot/build/alphabot/build/lib/alphabot
+[7.228s] running install
+[7.259s] running install_lib
+[7.366s] copying /home/user/ros2_ws/src/alphabot/build/alphabot/build/lib/alphabot/alphabot.py -> /home/user/ros2_ws/src/alphabot/install/alphabot/lib/python3.12/site-packages/alphabot
+[7.370s] byte-compiling /home/user/ros2_ws/src/alphabot/install/alphabot/lib/python3.12/site-packages/alphabot/alphabot.py to alphabot.cpython-312.pyc
+[7.373s] running install_data
+[7.373s] running install_egg_info
+[7.526s] removing '/home/user/ros2_ws/src/alphabot/install/alphabot/lib/python3.12/site-packages/alphabot-0.0.0-py3.12.egg-info' (and everything under it)
+[7.529s] Copying build/alphabot/alphabot.egg-info to /home/user/ros2_ws/src/alphabot/install/alphabot/lib/python3.12/site-packages/alphabot-0.0.0-py3.12.egg-info
+[7.538s] running install_scripts
+[8.442s] writing list of installed files to '/home/user/ros2_ws/src/alphabot/build/alphabot/install.log'
+[8.600s] Invoked command in '/home/user/ros2_ws/src/alphabot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/ros2_ws/src/alphabot/build/alphabot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/src/alphabot/install/alphabot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/alphabot build --build-base /home/user/ros2_ws/src/alphabot/build/alphabot/build install --record /home/user/ros2_ws/src/alphabot/build/alphabot/install.log --single-version-externally-managed install_data

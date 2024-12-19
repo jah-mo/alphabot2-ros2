@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.002682] (alphabot) JobQueued: {'identifier': 'alphabot', 'dependencies': OrderedDict()}
+[0.004989] (alphabot) JobStarted: {'identifier': 'alphabot'}
+[0.097686] (-) TimerEvent: {}
+[0.198357] (-) TimerEvent: {}
+[0.300078] (-) TimerEvent: {}
+[0.403350] (-) TimerEvent: {}
+[0.505423] (-) TimerEvent: {}
+[0.609376] (-) TimerEvent: {}
+[0.710613] (-) TimerEvent: {}
+[0.817465] (-) TimerEvent: {}
+[0.918171] (-) TimerEvent: {}
+[1.019154] (-) TimerEvent: {}
+[1.119970] (-) TimerEvent: {}
+[1.220647] (-) TimerEvent: {}
+[1.321382] (-) TimerEvent: {}
+[1.423421] (-) TimerEvent: {}
+[1.526099] (-) TimerEvent: {}
+[1.627479] (-) TimerEvent: {}
+[1.728930] (-) TimerEvent: {}
+[1.831053] (-) TimerEvent: {}
+[1.932328] (-) TimerEvent: {}
+[2.034058] (-) TimerEvent: {}
+[2.134671] (-) TimerEvent: {}
+[2.235261] (-) TimerEvent: {}
+[2.335820] (-) TimerEvent: {}
+[2.436436] (-) TimerEvent: {}
+[2.536993] (-) TimerEvent: {}
+[2.637662] (-) TimerEvent: {}
+[2.738721] (-) TimerEvent: {}
+[2.841888] (-) TimerEvent: {}
+[2.943083] (-) TimerEvent: {}
+[3.046054] (-) TimerEvent: {}
+[3.149010] (-) TimerEvent: {}
+[3.249766] (-) TimerEvent: {}
+[3.352795] (-) TimerEvent: {}
+[3.453501] (-) TimerEvent: {}
+[3.557635] (-) TimerEvent: {}
+[3.661366] (-) TimerEvent: {}
+[3.762072] (-) TimerEvent: {}
+[3.862763] (-) TimerEvent: {}
+[3.963338] (-) TimerEvent: {}
+[4.063918] (-) TimerEvent: {}
+[4.164552] (-) TimerEvent: {}
+[4.266614] (-) TimerEvent: {}
+[4.368746] (-) TimerEvent: {}
+[4.470650] (-) TimerEvent: {}
+[4.571287] (-) TimerEvent: {}
+[4.671943] (-) TimerEvent: {}
+[4.773038] (-) TimerEvent: {}
+[4.874399] (-) TimerEvent: {}
+[4.979882] (-) TimerEvent: {}
+[5.067358] (alphabot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/alphabot', 'build', '--build-base', '/home/user/ros2_ws/src/alphabot/build/alphabot/build', 'install', '--record', '/home/user/ros2_ws/src/alphabot/build/alphabot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/ros2_ws/src/alphabot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1002/default,113276,1', 'USER': 'user', 'SSH_CLIENT': '192.168.1.151 35524 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/user/ros2_ws/install/turtlesim/lib:/home/user/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/user/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/user/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/ros2_ws/src', 'TERM_PROGRAM_VERSION': '3.4', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/user/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'tmux-256color', 'XDG_SESSION_ID': '1533', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'tmux', 'AMENT_PREFIX_PATH': '/home/user/ros2_ws/install/turtlesim:/home/user/ros2_ws/install/launch_testing_examples:/home/user/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/user/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/user/ros2_ws/install/examples_rclpy_minimal_service:/home/user/ros2_ws/install/examples_rclpy_minimal_publisher:/home/user/ros2_ws/install/examples_rclpy_minimal_client:/home/user/ros2_ws/install/examples_rclpy_minimal_action_server:/home/user/ros2_ws/install/examples_rclpy_minimal_action_client:/home/user/ros2_ws/install/examples_rclpy_guard_conditions:/home/user/ros2_ws/install/examples_rclpy_executors:/home/user/ros2_ws/install/examples_rclcpp_wait_set:/home/user/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/user/ros2_ws/install/examples_rclcpp_minimal_timer:/home/user/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/user/ros2_ws/install/examples_rclcpp_minimal_service:/home/user/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/user/ros2_ws/install/examples_rclcpp_minimal_composition:/home/user/ros2_ws/install/examples_rclcpp_minimal_client:/home/user/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/user/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/user/ros2_ws/install/examples_rclcpp_cbg_executor:/home/user/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/user/ros2_ws/src/alphabot/build/alphabot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.166 54949 192.168.1.174 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/ros2_ws/src/alphabot/build/alphabot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/src/alphabot/install/alphabot/lib/python3.12/site-packages:/home/user/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/user/ros2_ws/build/launch_testing_examples:/home/user/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages:/home/user/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/user/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:/home/user/ros2_ws/build/examples_rclpy_minimal_subscriber:/home/user/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:/home/user/ros2_ws/build/examples_rclpy_minimal_service:/home/user/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:/home/user/ros2_ws/build/examples_rclpy_minimal_publisher:/home/user/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:/home/user/ros2_ws/build/examples_rclpy_minimal_client:/home/user/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:/home/user/ros2_ws/build/examples_rclpy_minimal_action_server:/home/user/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:/home/user/ros2_ws/build/examples_rclpy_minimal_action_client:/home/user/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:/home/user/ros2_ws/build/examples_rclpy_guard_conditions:/home/user/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:/home/user/ros2_ws/build/examples_rclpy_executors:/home/user/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'TMUX_PANE': '%2', 'CMAKE_PREFIX_PATH': '/home/user/ros2_ws/install/turtlesim:/home/user/ros2_ws/install/examples_rclcpp_wait_set:/home/user/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/user/ros2_ws/install/examples_rclcpp_minimal_timer:/home/user/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/user/ros2_ws/install/examples_rclcpp_minimal_service:/home/user/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/user/ros2_ws/install/examples_rclcpp_minimal_composition:/home/user/ros2_ws/install/examples_rclcpp_minimal_client:/home/user/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/user/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/user/ros2_ws/install/examples_rclcpp_cbg_executor:/home/user/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.080884] (-) TimerEvent: {}
+[5.182169] (-) TimerEvent: {}
+[5.283315] (-) TimerEvent: {}
+[5.383965] (-) TimerEvent: {}
+[5.484720] (-) TimerEvent: {}
+[5.586302] (-) TimerEvent: {}
+[5.687341] (-) TimerEvent: {}
+[5.789004] (-) TimerEvent: {}
+[5.890405] (-) TimerEvent: {}
+[5.992881] (-) TimerEvent: {}
+[6.097589] (-) TimerEvent: {}
+[6.199349] (-) TimerEvent: {}
+[6.299981] (-) TimerEvent: {}
+[6.402021] (-) TimerEvent: {}
+[6.504932] (-) TimerEvent: {}
+[6.605621] (-) TimerEvent: {}
+[6.706211] (-) TimerEvent: {}
+[6.795847] (alphabot) StdoutLine: {'line': b'running egg_info\n'}
+[6.806383] (-) TimerEvent: {}
+[6.907467] (-) TimerEvent: {}
+[6.949483] (alphabot) StdoutLine: {'line': b'writing build/alphabot/alphabot.egg-info/PKG-INFO\n'}
+[6.950871] (alphabot) StdoutLine: {'line': b'writing dependency_links to build/alphabot/alphabot.egg-info/dependency_links.txt\n'}
+[6.954814] (alphabot) StdoutLine: {'line': b'writing requirements to build/alphabot/alphabot.egg-info/requires.txt\n'}
+[6.956074] (alphabot) StdoutLine: {'line': b'writing top-level names to build/alphabot/alphabot.egg-info/top_level.txt\n'}
+[7.007622] (-) TimerEvent: {}
+[7.108853] (-) TimerEvent: {}
+[7.209820] (-) TimerEvent: {}
+[7.226380] (alphabot) StdoutLine: {'line': b"reading manifest file 'build/alphabot/alphabot.egg-info/SOURCES.txt'\n"}
+[7.229786] (alphabot) StdoutLine: {'line': b"writing manifest file 'build/alphabot/alphabot.egg-info/SOURCES.txt'\n"}
+[7.230713] (alphabot) StdoutLine: {'line': b'running build\n'}
+[7.231412] (alphabot) StdoutLine: {'line': b'running build_py\n'}
+[7.232197] (alphabot) StdoutLine: {'line': b'copying alphabot/alphabot.py -> /home/user/ros2_ws/src/alphabot/build/alphabot/build/lib/alphabot\n'}
+[7.233122] (alphabot) StdoutLine: {'line': b'running install\n'}
+[7.263989] (alphabot) StdoutLine: {'line': b'running install_lib\n'}
+[7.309993] (-) TimerEvent: {}
+[7.371008] (alphabot) StdoutLine: {'line': b'copying /home/user/ros2_ws/src/alphabot/build/alphabot/build/lib/alphabot/alphabot.py -> /home/user/ros2_ws/src/alphabot/install/alphabot/lib/python3.12/site-packages/alphabot\n'}
+[7.374873] (alphabot) StdoutLine: {'line': b'byte-compiling /home/user/ros2_ws/src/alphabot/install/alphabot/lib/python3.12/site-packages/alphabot/alphabot.py to alphabot.cpython-312.pyc\n'}
+[7.377500] (alphabot) StdoutLine: {'line': b'running install_data\n'}
+[7.378475] (alphabot) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.410191] (-) TimerEvent: {}
+[7.510881] (-) TimerEvent: {}
+[7.530785] (alphabot) StdoutLine: {'line': b"removing '/home/user/ros2_ws/src/alphabot/install/alphabot/lib/python3.12/site-packages/alphabot-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[7.533695] (alphabot) StdoutLine: {'line': b'Copying build/alphabot/alphabot.egg-info to /home/user/ros2_ws/src/alphabot/install/alphabot/lib/python3.12/site-packages/alphabot-0.0.0-py3.12.egg-info\n'}
+[7.542338] (alphabot) StdoutLine: {'line': b'running install_scripts\n'}
+[7.611419] (-) TimerEvent: {}
+[7.713568] (-) TimerEvent: {}
+[7.816378] (-) TimerEvent: {}
+[7.917478] (-) TimerEvent: {}
+[8.018062] (-) TimerEvent: {}
+[8.119370] (-) TimerEvent: {}
+[8.219970] (-) TimerEvent: {}
+[8.320653] (-) TimerEvent: {}
+[8.421302] (-) TimerEvent: {}
+[8.444178] (alphabot) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros2_ws/src/alphabot/build/alphabot/install.log'\n"}
+[8.523456] (-) TimerEvent: {}
+[8.603986] (alphabot) CommandEnded: {'returncode': 0}
+[8.623594] (-) TimerEvent: {}
+[8.663281] (alphabot) JobEnded: {'identifier': 'alphabot', 'rc': 0}
+[8.667774] (-) EventReactorShutdown: {}

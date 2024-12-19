@@ -1,0 +1,30 @@
+running egg_info
+creating build/alphabot/alphabot.egg-info
+writing build/alphabot/alphabot.egg-info/PKG-INFO
+writing dependency_links to build/alphabot/alphabot.egg-info/dependency_links.txt
+writing requirements to build/alphabot/alphabot.egg-info/requires.txt
+writing top-level names to build/alphabot/alphabot.egg-info/top_level.txt
+writing manifest file 'build/alphabot/alphabot.egg-info/SOURCES.txt'
+reading manifest file 'build/alphabot/alphabot.egg-info/SOURCES.txt'
+writing manifest file 'build/alphabot/alphabot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user/ros2_ws/src/alphabot/build/alphabot/build
+creating /home/user/ros2_ws/src/alphabot/build/alphabot/build/lib
+creating /home/user/ros2_ws/src/alphabot/build/alphabot/build/lib/alphabot
+copying alphabot/__init__.py -> /home/user/ros2_ws/src/alphabot/build/alphabot/build/lib/alphabot
+running install
+running install_lib
+creating /home/user/ros2_ws/src/alphabot/install/alphabot/lib/python3.12/site-packages/alphabot
+copying /home/user/ros2_ws/src/alphabot/build/alphabot/build/lib/alphabot/__init__.py -> /home/user/ros2_ws/src/alphabot/install/alphabot/lib/python3.12/site-packages/alphabot
+byte-compiling /home/user/ros2_ws/src/alphabot/install/alphabot/lib/python3.12/site-packages/alphabot/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/user/ros2_ws/src/alphabot/install/alphabot/share/ament_index
+creating /home/user/ros2_ws/src/alphabot/install/alphabot/share/ament_index/resource_index
+creating /home/user/ros2_ws/src/alphabot/install/alphabot/share/ament_index/resource_index/packages
+copying resource/alphabot -> /home/user/ros2_ws/src/alphabot/install/alphabot/share/ament_index/resource_index/packages
+copying package.xml -> /home/user/ros2_ws/src/alphabot/install/alphabot/share/alphabot
+running install_egg_info
+Copying build/alphabot/alphabot.egg-info to /home/user/ros2_ws/src/alphabot/install/alphabot/lib/python3.12/site-packages/alphabot-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/user/ros2_ws/src/alphabot/build/alphabot/install.log'

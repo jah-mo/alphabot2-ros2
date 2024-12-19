@@ -1,0 +1,91 @@
+[0.764s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.764s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffaabf6cc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffaad9f320>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffaad9f320>>, mixin_verb=('build',))
+[0.988s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.988s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.989s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.989s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.989s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.989s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.990s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/ros2_ws/src/alphabot'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.167s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'alphabot'
+[1.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.298s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 23 installed packages in /home/user/ros2_ws/install
+[1.310s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 311 installed packages in /opt/ros/jazzy
+[1.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'alphabot' build argument 'cmake_args' from command line to 'None'
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'alphabot' build argument 'cmake_target' from command line to 'None'
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'alphabot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'alphabot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.582s] Level 5:colcon.colcon_core.verb:set package 'alphabot' build argument 'cmake_clean_first' from command line to 'False'
+[1.582s] Level 5:colcon.colcon_core.verb:set package 'alphabot' build argument 'cmake_force_configure' from command line to 'False'
+[1.582s] Level 5:colcon.colcon_core.verb:set package 'alphabot' build argument 'ament_cmake_args' from command line to 'None'
+[1.582s] Level 5:colcon.colcon_core.verb:set package 'alphabot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.582s] Level 5:colcon.colcon_core.verb:set package 'alphabot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.582s] DEBUG:colcon.colcon_core.verb:Building package 'alphabot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/src/alphabot/build/alphabot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/src/alphabot/install/alphabot', 'merge_install': False, 'path': '/home/user/ros2_ws/src/alphabot', 'symlink_install': False, 'test_result_base': None}
+[1.583s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.586s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.587s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/ros2_ws/src/alphabot' with build type 'ament_python'
+[1.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('alphabot', 'ament_prefix_path')
+[1.605s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/alphabot/install/alphabot/share/alphabot/hook/ament_prefix_path.ps1'
+[1.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/src/alphabot/install/alphabot/share/alphabot/hook/ament_prefix_path.dsv'
+[1.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/alphabot/install/alphabot/share/alphabot/hook/ament_prefix_path.sh'
+[1.613s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.614s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.910s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/ros2_ws/src/alphabot'
+[2.911s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.912s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/alphabot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/ros2_ws/src/alphabot/build/alphabot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/src/alphabot/install/alphabot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/alphabot build --build-base /home/user/ros2_ws/src/alphabot/build/alphabot/build install --record /home/user/ros2_ws/src/alphabot/build/alphabot/install.log --single-version-externally-managed install_data
+[11.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/alphabot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/ros2_ws/src/alphabot/build/alphabot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/src/alphabot/install/alphabot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/alphabot build --build-base /home/user/ros2_ws/src/alphabot/build/alphabot/build install --record /home/user/ros2_ws/src/alphabot/build/alphabot/install.log --single-version-externally-managed install_data
+[11.042s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/alphabot/install/alphabot' for CMake module files
+[11.044s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/alphabot/install/alphabot' for CMake config files
+[11.047s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/alphabot/install/alphabot/lib'
+[11.048s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/alphabot/install/alphabot/bin'
+[11.048s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/alphabot/install/alphabot/lib/pkgconfig/alphabot.pc'
+[11.049s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/alphabot/install/alphabot/lib/python3.12/site-packages'
+[11.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('alphabot', 'pythonpath')
+[11.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/alphabot/install/alphabot/share/alphabot/hook/pythonpath.ps1'
+[11.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/src/alphabot/install/alphabot/share/alphabot/hook/pythonpath.dsv'
+[11.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/alphabot/install/alphabot/share/alphabot/hook/pythonpath.sh'
+[11.056s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/alphabot/install/alphabot/bin'
+[11.056s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alphabot)
+[11.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/alphabot/install/alphabot/share/alphabot/package.ps1'
+[11.061s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/src/alphabot/install/alphabot/share/alphabot/package.dsv'
+[11.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/alphabot/install/alphabot/share/alphabot/package.sh'
+[11.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/alphabot/install/alphabot/share/alphabot/package.bash'
+[11.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/alphabot/install/alphabot/share/alphabot/package.zsh'
+[11.071s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/src/alphabot/install/alphabot/share/colcon-core/packages/alphabot)
+[11.073s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.074s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.075s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.075s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.100s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.101s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.101s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.106s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[11.107s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.108s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/alphabot/install/local_setup.ps1'
+[11.111s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/src/alphabot/install/_local_setup_util_ps1.py'
+[11.115s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/alphabot/install/setup.ps1'
+[11.124s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/alphabot/install/local_setup.sh'
+[11.126s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/src/alphabot/install/_local_setup_util_sh.py'
+[11.129s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/alphabot/install/setup.sh'
+[11.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/alphabot/install/local_setup.bash'
+[11.140s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/alphabot/install/setup.bash'
+[11.150s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/alphabot/install/local_setup.zsh'
+[11.152s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/alphabot/install/setup.zsh'

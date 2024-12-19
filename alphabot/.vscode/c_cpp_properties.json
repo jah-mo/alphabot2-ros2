@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/user/ros2_ws/install/turtlesim/include/**",
+        "/home/user/ros2_ws/install/examples_rclcpp_cbg_executor/include/**",
+        "/opt/ros/jazzy/include/**",
+        "/home/user/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include/**",
+        "/home/user/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include/**",
+        "/home/user/ros2_ws/src/examples/rclcpp/wait_set/include/**",
+        "/home/user/ros2_ws/src/ros_tutorials/turtlesim/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
